@@ -1,2 +1,2 @@
 # Flight-Delay-Analysis-MSc-Project
-Flight Delay Analysis MSc roject
+Flight Delay Analysis MSc Project
