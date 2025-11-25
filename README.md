@@ -16,7 +16,5 @@ RQ2: To what extent do machine learning models predict flight arrival delays bas
 # Dataset Used
 https://www.kaggle.com/datasets/usdot/flight-delays - USA Flights Delay Data
 
-https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_AIR_TRANSPORT%40DF_AIR_TRANSPORT&df[ag]=OECD.SDD.NAD.SEEA&dq=FRA.Q....._T..&lom=LASTNPERIODS&lo=5&to[TIME_PERIOD]=false&vw=tb - CO2 Emissions data all countries OECD
-
 
 
