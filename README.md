@@ -3,15 +3,23 @@
 # Project title
 Reliable Air Travel; Stratified Analysis of Flight Delay
 
-# Short summary of the topic and background
+# Aims and Objectives of the Study
 
-Air travel is an important part of global transport, but it faces ongoing challenges around both environmental impact and service reliability. The aviation industry is under pressure to lower its carbon emissions while also ensuring that flights run on time. These two goals are often difficult to achieve together, as efforts to reduce emissions can sometimes affect operational performance, and vice versa.
-This project, “Reliable Air Travel; Stratified Analysis of Flight Delay,” aims to explore how sustainability and reliability interact within the air travel industry. The study will look at the main factors that influence delays in domestic flights within the United States and how these vary between different routes. It will also test how well machine learning models can predict flight delays using operational and environmental data, and how these predictions may differ across routes and airlines.
+The aim of the study is to analyse the operational, temporal and spatial factors influencing flight departure delays through an example dataset from U.S. aviation and evaluate the effectiveness of machine learning methods in predicting the departure delays. The study also evaluates the role of airlines and airports in predicting delays to take more nuanced precautions by flight operators. The study further examines how class imbalance affects model performance. 
+
+**Objectives of the study:** 
+- To develop and compare multiple machine learning models including Random Forest, LightGBM, XGBoost and Logistic regression to predict departure delays.
+- To identify the most influential factors affecting flight departure delays using SHAP values.
+- To assess the effect of imbalanced data on predictive performance and the role of class weighting techniques to improve performance of minority class recall.
+- To conduct stratified analysis by airline and airport hub type to understand variations in delay drivers and model performance across operational contexts. 
+ 
 
  # Research Question
-RQ1: What are the key factors influencing departure and arrival delays in domestic U.S. flights, and how do these vary by airline and airport?
+RQ1: What are the key factors influencing departure delays in domestic U.S. flights, and how do these vary by airline and airport?
 
-RQ2: To what extent do machine learning models predict flight arrival delays based on operational and environmental features, and how do these predictions differ across airlines and routes?
+RQ2: To what extent do machine learning models predict flight delays based on operational and geographic features, and how do these predictions differ across airlines and routes?
+
+RQ3: What is the effect of imbalanced data on model bias toward the majority class in flight delay prediction, and how do resampling or class-weighting techniques improve minority-class recall? 
 
 # Dataset Used
 https://www.kaggle.com/datasets/usdot/flight-delays - USA Flights Delay Data
