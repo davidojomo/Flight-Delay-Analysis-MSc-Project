@@ -19,7 +19,15 @@ RQ1: What are the key factors influencing departure delays in domestic U.S. flig
 
 RQ2: To what extent do machine learning models predict flight delays based on operational and geographic features, and how do these predictions differ across airlines and routes?
 
-RQ3: What is the effect of imbalanced data on model bias toward the majority class in flight delay prediction, and how do resampling or class-weighting techniques improve minority-class recall? 
+RQ3: What is the effect of imbalanced data on model bias toward the majority class in flight delay prediction, and how do resampling or class-weighting techniques improve minority-class recall?
+
+ # Model Performance
+ 
+Tree-based models outperformed baseline classifiers, with XGBoost achieving the strongest balance between precision and recall for delayed flights after class-weighted tuning. While overall accuracy declined due to imbalance correction, recall for delay prediction improved substantially, demonstrating more reliable identification of operationally critical delays rather than majority class dominance.
+
+# Stratified Analysis
+
+Stratified evaluation revealed pronounced heterogeneity in delay prediction across airlines, airport hubs, and routes. High-volume hubs and specific origin–destination pairs exhibited distinct delay drivers, with congestion and operational factors varying geographically. These findings highlight the importance of localised modelling and targeted operational interventions rather than system-wide assumptions.
 
 # Dataset Used
 https://www.kaggle.com/datasets/usdot/flight-delays - USA Flights Delay Data
